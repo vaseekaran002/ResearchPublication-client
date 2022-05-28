@@ -1,0 +1,25 @@
+.ViewPub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header{
+    margin-left:10%;
+    margin-top:-10%;
+}
+
+.search{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.searchbar::placeholder{
+    color:grey;
+    text-align: center;
+}
+
+.searchbar{
+    border: none;
+}

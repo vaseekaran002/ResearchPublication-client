@@ -1,0 +1,20 @@
+.UpdatePub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header{
+    margin-left:10%;
+    margin-top:-10%;
+}
+
+.form{
+    margin-left: 10%;
+}
+
+.submit{
+    background-color: #0166b2;
+    border: none;
+    color:white;
+}

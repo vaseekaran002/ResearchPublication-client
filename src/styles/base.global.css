@@ -1,0 +1,29 @@
+:root {
+  --primary: #0166b2;
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');*/
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("../utils/background.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+body > #root > div > div {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "Work Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+}
