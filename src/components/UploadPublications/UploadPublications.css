@@ -1,20 +1,26 @@
-.UpdatePub{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.UpdatePub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: aliceblue;
 }
 
-.header{
-    margin-left:10%;
-    margin-top:-10%;
+.header {
+  margin-left: 10%;
+  margin-top: -10%;
 }
 
-.form{
-    margin-left: 10%;
+.form {
+  margin-left: 10%;
 }
 
-.submit{
-    background-color: #0166b2;
-    border: none;
-    color:white;
+.submit {
+  background-color: #0166b2;
+  border: none;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
